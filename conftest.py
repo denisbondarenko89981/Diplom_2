@@ -2,7 +2,8 @@ import pytest
 import requests
 import random
 import string
-from data import BASE_URL, DEFAULT_PASSWORD, DEFAULT_NAME
+from data import DEFAULT_PASSWORD, DEFAULT_NAME
+from urls import BASE_URL
 
 @pytest.fixture
 def user_data():
