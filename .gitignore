@@ -1,0 +1,38 @@
+# Кэш и временные файлы Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pytest_cache/
+*.cache/
+*.log
+
+# IDE и редакторы
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Виртуальные окружения
+venv/
+env/
+.venv/
+
+# Отчёты и временные файлы Allure (оставляем только allure-results)
+allure-report/
+!allure-results/
+
+# Системные файлы Windows / macOS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Архивы и временные выгрузки
+*.zip
+*.rar
+*.tar
+*.gz
+
+# Файлы окружения и конфигурации пользователя
+.env
+*.iml
